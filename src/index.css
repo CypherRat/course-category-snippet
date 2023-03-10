@@ -1,13 +1,26 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;900&family=Raleway&family=Ubuntu:wght@400;700&family=Rock+Salt&display=swap");
+*,
+*::after,
+*::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgb(151, 151, 235);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1044%26quot%3b)' fill='none'%3e%3cpath d='M-7.413992999900639 427.09179282127434L77.81942210923101 468.66290700475975 119.3905362927164 383.4294918956281 34.15712118358475 341.85837771214267z' fill='rgba(123%2c 110%2c 205%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M912.7866035941585 253.56666445954278L887.49112630094 355.0212824918723 1014.241221626488 278.86214175276126z' fill='rgba(123%2c 110%2c 205%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M276.8 408.93 a105.34 105.34 0 1 0 210.68 0 a105.34 105.34 0 1 0 -210.68 0z' fill='rgba(123%2c 110%2c 205%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M946.69 381.07 a154.24 154.24 0 1 0 308.48 0 a154.24 154.24 0 1 0 -308.48 0z' fill='rgba(123%2c 110%2c 205%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M987.6437880737838 120.73137394692539L896.5958804756397 26.44850562184442 802.3130121505587 117.49641321998853 893.3609197487028 211.7792815450695z' fill='rgba(123%2c 110%2c 205%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M211.75932755297583 145.4738400300571L311.05540550428316 298.69587992786114 385.98617648459725 157.7715958763793z' fill='rgba(123%2c 110%2c 205%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1044'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  user-select: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
